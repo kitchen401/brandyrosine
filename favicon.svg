@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <defs>
+    <pattern id="checker" width="8" height="8" patternUnits="userSpaceOnUse">
+      <rect width="8" height="8" fill="#faf7f1"/>
+      <rect width="4" height="4" fill="#2f2a24"/>
+      <rect x="4" y="4" width="4" height="4" fill="#2f2a24"/>
+    </pattern>
+    <path id="heart" d="M16 28.6C16 28.6 4 20.8 4 12.4C4 8.5 7 5.5 10.6 5.5C13 5.5 15 6.9 16 8.8C17 6.9 19 5.5 21.4 5.5C25 5.5 28 8.5 28 12.4C28 20.8 16 28.6 16 28.6Z"/>
+    <clipPath id="heartClip"><use href="#heart"/></clipPath>
+  </defs>
+  <g clip-path="url(#heartClip)">
+    <rect x="0" y="0" width="32" height="32" fill="url(#checker)"/>
+  </g>
+  <use href="#heart" fill="none" stroke="#2f2a24" stroke-width="1.6"/>
+</svg>
