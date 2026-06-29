@@ -191,7 +191,8 @@ section { padding: 64px 0; }
   font-family: "Cormorant Garamond", serif;
   font-size: clamp(1.8rem, 4vw, 2.6rem);
   color: var(--gold);
-  margin: 6px 0 14px;
+  margin: 6px auto 14px;
+  text-align: center;
 }
 .std p { color: #e7dcc9; max-width: 620px; margin-left: auto; margin-right: auto; }
 .std .tentative { font-size: 0.85rem; opacity: 0.8; font-style: italic; }
